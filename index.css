@@ -1,0 +1,74 @@
+#header{
+	position: fixed;
+	height: 10%;
+	width: 100%;
+	background-color: black;
+	
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+#cursor{
+    position: fixed;
+    height:100px;
+    width: auto;
+    cursor: none;
+	z-index: 3;
+	border-radius: 10px;
+	opacity: 0.5;
+    
+}
+
+#jack{
+	position: fixed;
+	top: 10px;
+	left: 400px;
+	margin: auto;
+	z-index: 2;
+	
+}
+
+#nextPage{
+	position: absolute;
+	right: -160px;
+	top: 0px;
+	width: 10%;
+	height: 100%;
+	background-color: white;
+	transition: right 2s;
+}
+
+
+
+#man{
+	position: relative;
+	
+	top: 90px;
+	left: 600px;
+}
+
+#car{
+	position: absolute;
+	width: 50%;
+	top: 50%;
+	z-index: 2;
+}
+
+#display{
+	background-color: black;
+	z-index: -1;
+	height: 100vh;
+}
+
+
+#open {
+	background-color: #041204;
+	color: aqua;
+	font-size: xlarge;
+	position: absolute;
+	left: -150px;
+	height: 100%;
+	width: 90%;
+	border-radius: 5px;
+}
